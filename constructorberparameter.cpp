@@ -15,6 +15,6 @@ mahasiswa::mahasiswa(int nim, string nama) {
 }
 
 int main() {
-    mahasiswa mhs(118, "Rizqi Tukang Makan"); // Memanggil Constructor dengan parameter
+    mahasiswa mhs(113, "Rizqi Tukang Makan"); // Memanggil Constructor dengan parameter
     return 0;
 }
