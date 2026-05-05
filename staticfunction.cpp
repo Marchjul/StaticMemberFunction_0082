@@ -12,4 +12,9 @@ public:
     void setID();
     void printAll();
 
+    //pembuatan static function
+    static void setNim(int pnim) {
+        nim = pnim;
+    };
+
 };
