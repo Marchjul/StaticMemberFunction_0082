@@ -39,3 +39,15 @@ void Mahasiswa::printAll() {
     cout << "Nama = " << nama << endl;
     cout << endl;
 }
+
+int main() {
+    //pembuatan object dan pemberian nilai
+    Mahasiswa mhs1("Sri Dadi");
+    Mahasiswa mhs2("Budi Jatmiko");
+    //memberi nilai pada setNim() untuk merubah nilai NIM
+    Mahasiswa::setNim(9);
+    Mahasiswa mhs3("Andi Janu");
+
+    // Catatan: Gambar terpotong di bagian bawah, 
+    // namun biasanya diakhiri dengan pemanggilan printAll() atau return 0;
+}
